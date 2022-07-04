@@ -12,7 +12,7 @@ h2 {
 }
 
 .heading-color {
-    color: rgb(221, 31, 66);
+    color: green;
 }
 
 .flexible-container {
@@ -31,11 +31,11 @@ h2 {
 
 .link-button {
     text-decoration: none;
-    background-color: rgb(11, 242, 11);
-    padding: 10px 20px;
+    background-color: rgb(6, 98, 6);
+    padding: 10px 30px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-size: 18px;
 }
 
 .top-banner {
@@ -53,12 +53,31 @@ h2 {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-right: 50px;
 }
 
 .experience-item {
     width: 80%;
     margin-left: 5%;
-    padding-left: 5%;
+    padding-bottom: 120px;
+    padding: 30px;
     box-shadow: 10px 10px 40px gray;
 
+}
+
+
+
+#full-stack {
+    border-left: 10px solid rgb(245, 119, 73);
+    border-radius: 10px;
+}
+
+#baby-web {
+    border-left: 10px solid rgb(12, 72, 225);
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
 }
